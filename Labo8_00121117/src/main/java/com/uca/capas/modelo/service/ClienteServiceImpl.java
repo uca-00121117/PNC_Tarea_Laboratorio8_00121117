@@ -258,7 +258,7 @@ public class ClienteServiceImpl implements ClienteService {
 	}
 
 	private List<Vehiculo> prepararColeccion() {
-		
+		//Ruta Absoluta en Linux
 		String csv = "/media/drubiknight/Drubi/Dru-Github/00121117-uca/PNC_Tarea_Laboratorio8_00121117"+"/vehiculos.csv";
 		
 		List<Vehiculo> coleccion = new ArrayList<Vehiculo>();
