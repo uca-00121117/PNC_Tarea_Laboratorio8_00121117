@@ -5,6 +5,7 @@ import java.util.List;
 
 import com.uca.capas.modelo.dto.ClienteDTO;
 import com.uca.capas.modelo.domain.Cliente;
+import com.uca.capas.modelo.domain.Vehiculo;
 
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.domain.Page;
@@ -42,5 +43,13 @@ public interface ClienteService {
 
 	public List<ClienteDTO> getClienteMarca(String marca);
 	/************************************************************************* */
+	
+	public int insertClienteAutoId(Cliente c);
+	
+	public void updateCliente(Cliente c);
+	
+	public int ejecutarProcedimientoJdbc(Integer cliente, Boolean estado);
+	
+	public int[][] cargaMasiva() throws ParseException;
 
 }

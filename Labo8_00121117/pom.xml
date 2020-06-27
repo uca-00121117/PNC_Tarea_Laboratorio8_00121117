@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.uca.capas</groupId>
-	<artifactId>modelo</artifactId>
+	<artifactId>Labo8_00121117</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>modelo</name>
+	<name>Labo8_00121117</name>
 	<packaging>war</packaging>
 	<description>Spring MVC y Thymeleaf</description>
 
